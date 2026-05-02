@@ -2,7 +2,7 @@
 require_once "bdDatos.php";
 
 function conBD() {
-		$conexion =	new mysqli(HOST,USER,PASSWORD,DATABASE);
+		$conexion =	new mysqli(HOST,USER,PASSWORD,DATABASE,PORT);
 		if ($conexion -> connect_error){
 			die("<br>Error de conexión con la base de datos: " . $conexion -> connect_error);
         }
