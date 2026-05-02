@@ -1,6 +1,6 @@
 <?php
-define("DATABASE", "bdAnime");
-define("HOST", "localhost");
+define("DATABASE", "railway");
+define("HOST", "monorail.proxy.rlwy.net");
 define("USER", "root");
-define("PASSWORD", "root");
+define("PASSWORD", "VAgNykJvsAwdXBzUEoqHyhLOzDmkAVyb");
 ?>
