@@ -1,7 +1,7 @@
 <?php
 require_once "conBD.php";
 // Cors básico para evitar errores al conectar con React.
-header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Origin: https://the-anime-list-umber.vercel.app");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Content-Type: application/json");
