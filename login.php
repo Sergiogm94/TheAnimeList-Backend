@@ -1,6 +1,8 @@
 <?php
 require_once "conBD.php";
 
+ini_set('session.cookie_samesite', 'None');
+ini_set('session.cookie_secure', '1');
 session_start();
 
 // Cors para que funciona al conectar con React.
